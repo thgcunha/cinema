@@ -1,0 +1,68 @@
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <title>Homem Aranha sem volta para casa</title>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+<body>
+    <h1><b>HOMEM ARANHA: SEM VOLTA PARA CASA</b></h1>
+        <img src="https://cadernopop.com.br/wp-content/uploads/2022/03/Homem-Aranha-Sem-Volta-Para-Casa.jpg">
+        <p><im>O personagem já ganhou seis adaptações solo para os cinemas, sendo interpretado por Tobey Maguire na primeira trilogia, duas vezes por Andrew Garfield e agora está nas mãos de Tom Holland. Os seis filmes do “teioso” somaram mais de US$ 4,84 bilhões para a Sony Pictures. Homem-Aranha 3 tem a maior arrecadação total, com US$ 890,9 milhões. Homem-Aranha: De Volta ao Lar, o filme mais recente, é o segundo no ranking da franquia, somando US$ 880,2 mundialmente. Homem-Aranha: Longe de Casa, sétimo filme solo do amigão da vizinhança, tem estreia prevista para julho de 2019. </im></p>
+    <h1>Os principais atores dessa cronologia:</h1>
+    <ul type="strong">
+        <li>Andrew Garfield</li>
+        <li>Tobey Maguire</li>
+        <li>Tom Holland</li>
+    </ul>
+    <h2><b>ANTES DO TÃO AGUARDADO FILME, TEMOS TODA UMA HISTÓRIA MONTADA HÁ ANOS ATRÁS:</b></h2>
+    <ol type="strong">
+        <li>Homem-Aranha (2002) - 121 minutos</li>
+        <li>Homem-Aranha 2 (2004) - 127 minutos </li>
+        <li>Homem-Aranha 3 (2007) - 139 minutos </li>
+        <li>O Espetacular Homem-Aranha (2012) - 136 minutos </li>
+        <li>O Espetacular Homem-Aranha 2 - (2014) - 142 minutos</li>
+        <li>Homem-Aranha: De Volta Ao Lar (2017) - 133 minutos</li>
+        <li>Homem-Aranha no Aranhaverso (2018) - 177 minutos</li>
+        <li>Homem-aranha:Longe de casa - 129 minutos</li>
+
+    </ol>
+    <footer>
+    <a href="http://127.0.0.1:5500/saibamais">Para saber mais sobre o filme </a>
+    </footer>
